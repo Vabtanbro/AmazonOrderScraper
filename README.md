@@ -1,5 +1,59 @@
 # AmazonOrderScraper
 
+## How To Run 
+
+There are 2 Version Of Scraer On Is `Playwright` And other is `Direct Api`.
+Both Takes Cookies in Difrent Format 
+
+
+
+
+
+
+### playwight
+> python3 amazonScraper.py -c cookies.json 
+
+\
+Cookie format:
+```
+[
+    {
+        "name": "ubid-acbin",
+        "value": "259-2942353-6241962",
+        "domain": ".amazon.in",
+        "path": "/"
+    },
+    {
+        "name": "x-acbin", 
+        "value": "al6xW31y25Ef3YdON2zQ1HbTz@@ATwfcF6CYjNzdvVB3fw6YUwAATIm46qZN3nDy",
+        "domain": ".amazon.in",
+        "path": "/"
+    },
+    {
+        "name": "at-acbin",
+        "value": "Atza|IwEBIAzWi7XEHROrVmWm...",
+        "domain": ".amazon.in",
+        "path": "/"
+    }
+]
+```
+
+
+### Direct api
+>python3 AmazonScraperFromApi_V2.py -c cookies_v2.json
+
+Cookie format:
+cookies_v2.json
+```
+cookie = {
+    "ubid-acbin": "259-2942353-6241962",
+    "x-acbin": "al6xW31y25Ef3YdON2zQ1HbTz@@ATwfcF6CYjNzdvVB3fw6YUwAATIm46qZN3nDy",
+    "at-acbin": "Atza|Iw *********",
+}
+
+```
+
+
 
 [Docs](https://docs.google.com/document/d/1tBrcoOnWDOlbctTkDGvmOTAewHB1M5xstnC-hKAniiY/edit?usp=drivesdk)
 
