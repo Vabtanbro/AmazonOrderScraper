@@ -1,0 +1,47 @@
+[
+    {
+        "name": "ubid-acbin",
+        "value": "257-9801022-1486411",
+        "domain": ".amazon.in",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "None",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1777002679,
+        "storeId": null
+    },
+    {
+        "name": "x-acbin",
+        "value": "\"Ewc@eBpHNGDXwyd5TIBRQgBs7QwOpRSJj?tRBunHw1ZJUwUuaWTU2@dOEi?j?2Su\"",
+        "domain": ".amazon.in",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "None",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1777002679,
+        "storeId": null
+    },
+    {
+        "name": "at-acbin",
+        "value": "Atza|IwEBINbrLKmtwml_QjTdMxmVZNXlHet2Nq9spDT67Vxayrlo0UPzZ0GbjyHcQMTh9JTmfXtonCL16x4Ox6eW-PGZ45-SltayBA5lq_Kkr5LzmQwbixEc7PJotqh6Lh11Q0c2OEp2aAM6k0NSA3uawCwa5J626dZz04mg5rFsnfhPwcq-S67W07jkdsjzEtENzpzF7BtnZyfivZVzq7TXQIYOYT1GZzFLxCYoJDrRpvqOvYqfBg",
+        "domain": ".amazon.in",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "None",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1777002679,
+        "storeId": null
+    }
+]
